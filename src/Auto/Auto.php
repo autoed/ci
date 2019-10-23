@@ -65,7 +65,7 @@ Class Auto {
 	 */
 	public static function _auto($class, $method)
 	{
-		$classObject = new $class;
+		$classObject = $class;
 		$reflection = new \ReflectionClass($classObject);
 
 		$methodObjectArr = $reflection->getMethods();
