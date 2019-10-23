@@ -1,0 +1,27 @@
+{
+    "name": "auto/ci",
+    "type": "library",
+    "description": "auto test php (Not Just Used For Ci)",
+    "keywords": ["auto", "unity", "data"],
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.7",
+        "squizlabs/php_codesniffer": "^1.5"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Auto\\": "src/Auto/",
+            "Faker\\": "src/Faker/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luck LiDi",
+            "email": "fomo3d.wiki@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    }
+}
