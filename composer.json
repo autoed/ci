@@ -2,7 +2,7 @@
     "name": "auto/ci",
     "type": "library",
     "description": "auto test php (Not Just Used For Ci)",
-    "keywords": ["auto", "unity", "data"],
+    "keywords": ["auto", "unity", "data", "test", "php", "ci"],
     "require-dev": {
         "phpunit/phpunit": "^4.8.35 || ^5.7",
         "squizlabs/php_codesniffer": "^1.5"

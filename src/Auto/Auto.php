@@ -1,4 +1,9 @@
 <?php
+/**
+ * 自动注解：PHP测试命名空间 Auto
+ * @Author: LiDi at 2019/10/25 13:31
+ * @Email : lidi.bj@acewill.cn
+ */
 namespace Auto;
 
 /**
@@ -10,7 +15,7 @@ Class Auto {
 
     /**
      * 自动注解：生成数据
-     * @return Data
+     * @return object
      * @Author: LiDi at 2019/10/24 1:06
      * @Email : lidi.bj@acewill.cn
      */
@@ -21,7 +26,7 @@ Class Auto {
 
     /**
      * 自动注解：处理数据
-     * @param $methodDoc
+     * @param  string $methodDoc
      * @return mixed
      * @Author: LiDi at 2019/10/24 1:24
      * @Email : lidi.bj@acewill.cn
