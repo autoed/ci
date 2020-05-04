@@ -163,6 +163,13 @@ Class Auto
         return $realArr;
     }
 
+    /**
+     * Get style
+     * User:  fomo3d.wiki
+     * Email: fomo3d.wiki@gmail.com
+     * Date: 2020/5/4
+     * @return string
+     */
     public static function getStyle()
     {
         $style = '<style type="text/css">
@@ -226,7 +233,14 @@ Class Auto
         return $style;
     }
 
-    public static function getCurl()
+    /**
+     * Send curl
+     * User:  fomo3d.wiki
+     * Email: fomo3d.wiki@gmail.com
+     * Date: 2020/5/4
+     * @return string
+     */
+    public static function sendCurl()
     {
         $ajax = '<script id="auto_host" class="'.AUTO_TEST_API_HOST.'" type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script>
@@ -317,6 +331,6 @@ $(".sendBtn").on("click",function(){
                     . '</div>';
             }
         }
-        return self::getStyle().'<div class="container">'.$strDoc.'</div>'.self::getCurl();
+        return self::getStyle().'<div class="container">'.$strDoc.'</div>'.self::sendCurl();
     }
 }
